@@ -32,6 +32,6 @@ this.display = function () {
 		this.Yscale += this.ScaleAmountY;
 	
 	
-	this.ScaleAmount += 1;
+	
 }
 }
