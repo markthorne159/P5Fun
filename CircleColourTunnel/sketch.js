@@ -14,19 +14,12 @@ background(51);
 function draw() {
 	background(51);
 	
-	if(Circles.length > 33){
+	if(Circles.length > 35){
 	Circles.splice(0,1);
 }
 	
 	for(var i = 0; i < Circles.length; i++){
 		Circles[i].display();
-	}
-	
-	for(var i = 0; i < Circles.length; i++){
-		if(Circles[i].Full == 1){
-		Circles.splice(i,1);
-		Amount = 1;
-		}
 	}
  }
 
