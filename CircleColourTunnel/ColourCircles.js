@@ -21,7 +21,7 @@ this.display = function () {
 	color(216, 0, 202),
 	color(255, 10, 189),
 	];
-	this.ScaleAmount = 5;
+	this.ScaleAmount = 6;
 	stroke(255);
 	fill(this.A,this.B,this.C);
 	ellipse(this.x,this.y,this.Xscale,this.Yscale);
