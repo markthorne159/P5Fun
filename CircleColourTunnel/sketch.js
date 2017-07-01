@@ -14,7 +14,7 @@ background(51);
 function draw() {
 	background(51);
 	
-	if(Circles.length > 30){
+	if(Circles.length > 100){
 	Circles.splice(0,1);
 }
 	
