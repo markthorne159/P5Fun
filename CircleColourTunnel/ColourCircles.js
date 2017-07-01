@@ -1,6 +1,7 @@
 function DrawSpheres (D,E,F) {
 this.x = (displayWidth/2);
 this.y = (displayHeight/2);
+this.z = displayWidth;
 this.Xscale = 0;
 this.Yscale = 0;
 
@@ -24,7 +25,9 @@ this.display = function () {
 	this.ScaleAmount = 6;
 	stroke(255);
 	fill(this.A,this.B,this.C);
-	ellipse(this.x,this.y,this.Xscale,this.Yscale);
+	float this.sx = map(this.x/this.z,0,1,0,width);
+	float this.sy = map(this.y/this.z,0,1,0,height);
+	ellipse(this.sx,this.sy,this.Xscale,this.Yscale);
 	
 	
 		this.Xscale += this.ScaleAmount;
