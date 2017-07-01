@@ -14,7 +14,7 @@ background(51);
 function draw() {
 	background(51);
 	
-	if(Circles.length > 50){
+	if(Circles.length > 33){
 	Circles.splice(0,1);
 }
 	
@@ -28,7 +28,6 @@ function draw() {
 		Amount = 1;
 		}
 	}
-	console.log("Done!");
  }
 
 function CirclePush () {
