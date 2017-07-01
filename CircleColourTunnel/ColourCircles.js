@@ -31,8 +31,6 @@ this.display = function () {
 		this.Yscale += this.ScaleAmount;
 	
 	
-	// else if(this.Xscale > displayWidth && this.Yscale > displayHeight){
-		// this.Full = 1;
-	// }
+	this.ScaleAmount += 1;
 }
 }
