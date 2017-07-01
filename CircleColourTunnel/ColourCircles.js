@@ -4,6 +4,8 @@ this.y = (displayHeight/2);
 this.z = displayWidth;
 this.Xscale = 0;
 this.Yscale = 0;
+this.sx = map(this.x/this.z,0,1,0,width);
+this.sy = map(this.y/this.z,0,1,0,height);
 
 this.Full = 0;
 this.A = D;
@@ -25,8 +27,6 @@ this.display = function () {
 	this.ScaleAmount = 6;
 	stroke(255);
 	fill(this.A,this.B,this.C);
-	this.sx = map(this.x/this.z,0,1,0,width);
-	this.sy = map(this.y/this.z,0,1,0,height);
 	ellipse(this.sx,this.sy,this.Xscale,this.Yscale);
 	
 	
