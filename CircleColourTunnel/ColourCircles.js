@@ -21,15 +21,14 @@ this.display = function () {
 	color(216, 0, 202),
 	color(255, 10, 189),
 	];
-	this.ScaleAmountX = 2.5;
-	this.ScaleAmountY = 5;
+	this.ScaleAmount = 5;
 	stroke(255);
 	fill(this.A,this.B,this.C);
 	ellipse(this.x,this.y,this.Xscale,this.Yscale);
 	
 	
-		this.Xscale += this.ScaleAmountX;
-		this.Yscale += this.ScaleAmountY;
+		this.Xscale += this.ScaleAmount;
+		this.Yscale += this.ScaleAmount;
 	
 	
 	
